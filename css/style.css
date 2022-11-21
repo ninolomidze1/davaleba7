@@ -9,6 +9,7 @@
   padding: 30px;
 }
 header {
+  margin-left: 40px;
   width: 1276px;
   border: 1px solid #ffffff;
   background-color: #ffffff;
@@ -17,6 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   position: fixed;
+  z-index: 2;
 }
 
 .nav {
@@ -34,7 +36,6 @@ header {
 
 .section1 {
   width: 90%;
-  position: relative;
 }
 
 .dog {
