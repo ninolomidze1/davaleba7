@@ -1,0 +1,136 @@
+.container {
+  max-width: 1366px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(212, 207, 207);
+  position: relative;
+}
+.logo {
+  padding: 30px;
+}
+header {
+  width: 1276px;
+  border: 1px solid #ffffff;
+  background-color: #ffffff;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+}
+.nav1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+}
+
+/*morcha headeri*/
+
+.section1 {
+  width: 90%;
+  position: relative;
+}
+
+.dog {
+  width: 100%;
+  height: 100%;
+  margin: 70px 45px;
+}
+
+.text {
+  font-size: 24px;
+  color: #ffffff;
+  position: absolute;
+  left: 320px;
+  top: 225px;
+}
+
+button {
+  position: absolute;
+  left: 590px;
+  top: 320px;
+  padding: 17px 40px 12px 37px;
+}
+
+/*dasrulda section1*/
+h4 {
+  font-size: 28px;
+  margin-left: 74px;
+}
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.product {
+  background-color: white;
+  border: white;
+  border-radius: 9px;
+}
+
+.food1 {
+  padding: 54px;
+}
+h3 {
+  font-size: 18px;
+  margin-left: 15px;
+}
+h2 {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-left: 15px;
+}
+.weight {
+  display: flex;
+}
+
+h1 {
+  font-size: 13px;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+
+.weight1 {
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+  background-color: #e7e7e7;
+  padding: 3px;
+  padding: 13px 36px 9px 38px;
+}
+.weight2 {
+  border: 1px solid #e7e7e7;
+  border-radius: 6px;
+  background-color: #e7e7e7;
+  padding: 3px;
+  padding: 13px 36px 9px 38px;
+}
+
+.price1 {
+  color: red;
+}
+
+.buy {
+  display: flex;
+  margin-left: 25px;
+  margin-top: 77px;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+/*morcha section2*/
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+ul li {
+  padding: 10px;
+}
